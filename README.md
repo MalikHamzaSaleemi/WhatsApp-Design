@@ -16,8 +16,12 @@ This repository contains a chat interface design inspired by WhatsApp. It includ
   - Notification icon with count
   - Voice recording feature
   - Responsive design
+  - Reply Back Option
+  - User Seen Popup
+  - File Max Size Popup
+  - Delete Confirmation 
 
-  ![Chat Interface](docs/images/chat-interface.png)
+  ![Chat Interface](docs/images/chat-interface.png) (docs/images/largefile.png)(docs/images/seen.png)(docs/images/delete.png)
 
 ## Installation
 
