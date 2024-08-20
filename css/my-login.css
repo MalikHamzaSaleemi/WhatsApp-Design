@@ -1,0 +1,179 @@
+html,body {
+	height: 93%;
+}
+
+
+.bg-white {
+	background-color: #ffffff !important;
+  }
+  
+  .shadow-bottom {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.navbar-brand{
+	color:#1DAB61 !important;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: auto;
+	
+
+}
+.btn-contactus{
+	background-color:#1DAB61;
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: auto;
+	height: 38px;
+	width: 143px;
+	border-radius: 10px;
+}
+
+#name{
+	color:#463C3C !important;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: auto;
+}
+#details{
+	color:#687780 !important;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: auto;
+}
+
+/* Apply margin-right only for screens with a minimum width of 768px (typical desktop and laptop screen size) */
+@media (min-width: 768px) {
+	.navbar-brand{
+			margin-left:45px;
+		}
+  .btn-contactus {
+	
+    margin-right: 45px;
+  }
+}
+
+
+.Copyright-claim{
+	padding-left:30px ;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #687780;
+}
+.Copyright-claim-right{
+	padding-right: 30px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #687780;
+}
+
+
+
+.forgot-password{
+	color: #1DAB61;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+
+.loginbutton {
+	background-color: #1DAB61;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+body.my-login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+	background-color:#f0f2f5 ;
+}
+
+.my-login-page .card-wrapper {
+	width: 500px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	margin: 120px auto;
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	
+	font-size: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.sub-title{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color:687780;
+	margin-bottom: 38px;
+}
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-login-page .footer {
+
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
