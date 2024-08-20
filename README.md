@@ -21,7 +21,10 @@ This repository contains a chat interface design inspired by WhatsApp. It includ
   - File Max Size Popup
   - Delete Confirmation 
 
-  ![Chat Interface](docs/images/chat-interface.png) (docs/images/largefile.png)(docs/images/seen.png)(docs/images/delete.png)
+  ![Chat Interface](docs/images/chat-interface.png) 
+  ![Chat Interface](docs/images/largefile.png)
+  ![Chat Interface](docs/images/seen.png)
+  ![Chat Interface](docs/images/delete.png)
 
 ## Installation
 
